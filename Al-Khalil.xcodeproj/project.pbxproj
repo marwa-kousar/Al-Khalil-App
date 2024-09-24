@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221E680E2CA109E300A4CC52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221E680D2CA109E300A4CC52 /* GoogleService-Info.plist */; };
+		221E68112CA1D92400A4CC52 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 221E68102CA1D92400A4CC52 /* FirebaseAnalytics */; };
+		221E68132CA1D92400A4CC52 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 221E68122CA1D92400A4CC52 /* FirebaseDatabase */; };
+		221E68152CA1D92400A4CC52 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 221E68142CA1D92400A4CC52 /* FirebaseFirestore */; };
+		221E68172CA1D92400A4CC52 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 221E68162CA1D92400A4CC52 /* FirebaseMessaging */; };
+		221E68192CA1D92400A4CC52 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 221E68182CA1D92400A4CC52 /* FirebaseStorage */; };
+		221E681E2CA3457200A4CC52 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E681D2CA3457200A4CC52 /* Schedule.swift */; };
+		221E68202CA345AA00A4CC52 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E681F2CA345AA00A4CC52 /* ScheduleViewModel.swift */; };
+		223107242C97AC250071E3B6 /* Al_KhalilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107232C97AC250071E3B6 /* Al_KhalilApp.swift */; };
+		223107262C97AC250071E3B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107252C97AC250071E3B6 /* ContentView.swift */; };
+		223107282C97AC250071E3B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107272C97AC250071E3B6 /* Item.swift */; };
+		2231072A2C97AC260071E3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223107292C97AC260071E3B6 /* Assets.xcassets */; };
+		2231072D2C97AC260071E3B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2231072C2C97AC260071E3B6 /* Preview Assets.xcassets */; };
+		223107372C97AC270071E3B6 /* Al_KhalilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107362C97AC270071E3B6 /* Al_KhalilTests.swift */; };
+		223107412C97AC270071E3B6 /* Al_KhalilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107402C97AC270071E3B6 /* Al_KhalilUITests.swift */; };
+		223107432C97AC270071E3B6 /* Al_KhalilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107422C97AC270071E3B6 /* Al_KhalilUITestsLaunchTests.swift */; };
+		223107512C97B27A0071E3B6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107502C97B27A0071E3B6 /* SplashView.swift */; };
+		223107532C97B28B0071E3B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223107522C97B28B0071E3B6 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223107332C97AC270071E3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223107182C97AC250071E3B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2231071F2C97AC250071E3B6;
+			remoteInfo = "Al-Khalil";
+		};
+		2231073D2C97AC270071E3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223107182C97AC250071E3B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2231071F2C97AC250071E3B6;
+			remoteInfo = "Al-Khalil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221E680D2CA109E300A4CC52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		221E681D2CA3457200A4CC52 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		221E681F2CA345AA00A4CC52 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		223107202C97AC250071E3B6 /* Al-Khalil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al-Khalil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223107232C97AC250071E3B6 /* Al_KhalilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_KhalilApp.swift; sourceTree = "<group>"; };
+		223107252C97AC250071E3B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		223107272C97AC250071E3B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		223107292C97AC260071E3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2231072C2C97AC260071E3B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		223107322C97AC270071E3B6 /* Al-KhalilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al-KhalilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223107362C97AC270071E3B6 /* Al_KhalilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_KhalilTests.swift; sourceTree = "<group>"; };
+		2231073C2C97AC270071E3B6 /* Al-KhalilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al-KhalilUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223107402C97AC270071E3B6 /* Al_KhalilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_KhalilUITests.swift; sourceTree = "<group>"; };
+		223107422C97AC270071E3B6 /* Al_KhalilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_KhalilUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		223107502C97B27A0071E3B6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		223107522C97B28B0071E3B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2231071D2C97AC250071E3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221E68172CA1D92400A4CC52 /* FirebaseMessaging in Frameworks */,
+				221E68132CA1D92400A4CC52 /* FirebaseDatabase in Frameworks */,
+				221E68112CA1D92400A4CC52 /* FirebaseAnalytics in Frameworks */,
+				221E68192CA1D92400A4CC52 /* FirebaseStorage in Frameworks */,
+				221E68152CA1D92400A4CC52 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2231072F2C97AC270071E3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223107392C97AC270071E3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223107172C97AC250071E3B6 = {
+			isa = PBXGroup;
+			children = (
+				223107222C97AC250071E3B6 /* Al-Khalil */,
+				223107352C97AC270071E3B6 /* Al-KhalilTests */,
+				2231073F2C97AC270071E3B6 /* Al-KhalilUITests */,
+				223107212C97AC250071E3B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223107212C97AC250071E3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223107202C97AC250071E3B6 /* Al-Khalil.app */,
+				223107322C97AC270071E3B6 /* Al-KhalilTests.xctest */,
+				2231073C2C97AC270071E3B6 /* Al-KhalilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223107222C97AC250071E3B6 /* Al-Khalil */ = {
+			isa = PBXGroup;
+			children = (
+				223107232C97AC250071E3B6 /* Al_KhalilApp.swift */,
+				221E680D2CA109E300A4CC52 /* GoogleService-Info.plist */,
+				223107272C97AC250071E3B6 /* Item.swift */,
+				223107292C97AC260071E3B6 /* Assets.xcassets */,
+				2231074F2C97AC7B0071E3B6 /* Views */,
+				2231072B2C97AC260071E3B6 /* Preview Content */,
+			);
+			path = "Al-Khalil";
+			sourceTree = "<group>";
+		};
+		2231072B2C97AC260071E3B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2231072C2C97AC260071E3B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		223107352C97AC270071E3B6 /* Al-KhalilTests */ = {
+			isa = PBXGroup;
+			children = (
+				223107362C97AC270071E3B6 /* Al_KhalilTests.swift */,
+			);
+			path = "Al-KhalilTests";
+			sourceTree = "<group>";
+		};
+		2231073F2C97AC270071E3B6 /* Al-KhalilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				223107402C97AC270071E3B6 /* Al_KhalilUITests.swift */,
+				223107422C97AC270071E3B6 /* Al_KhalilUITestsLaunchTests.swift */,
+			);
+			path = "Al-KhalilUITests";
+			sourceTree = "<group>";
+		};
+		2231074F2C97AC7B0071E3B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				223107252C97AC250071E3B6 /* ContentView.swift */,
+				223107502C97B27A0071E3B6 /* SplashView.swift */,
+				223107522C97B28B0071E3B6 /* HomeView.swift */,
+				221E681F2CA345AA00A4CC52 /* ScheduleViewModel.swift */,
+				221E681D2CA3457200A4CC52 /* Schedule.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2231071F2C97AC250071E3B6 /* Al-Khalil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223107462C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-Khalil" */;
+			buildPhases = (
+				2231071C2C97AC250071E3B6 /* Sources */,
+				2231071D2C97AC250071E3B6 /* Frameworks */,
+				2231071E2C97AC250071E3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Al-Khalil";
+			productName = "Al-Khalil";
+			productReference = 223107202C97AC250071E3B6 /* Al-Khalil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223107312C97AC270071E3B6 /* Al-KhalilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223107492C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-KhalilTests" */;
+			buildPhases = (
+				2231072E2C97AC270071E3B6 /* Sources */,
+				2231072F2C97AC270071E3B6 /* Frameworks */,
+				223107302C97AC270071E3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223107342C97AC270071E3B6 /* PBXTargetDependency */,
+			);
+			name = "Al-KhalilTests";
+			productName = "Al-KhalilTests";
+			productReference = 223107322C97AC270071E3B6 /* Al-KhalilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2231073B2C97AC270071E3B6 /* Al-KhalilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2231074C2C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-KhalilUITests" */;
+			buildPhases = (
+				223107382C97AC270071E3B6 /* Sources */,
+				223107392C97AC270071E3B6 /* Frameworks */,
+				2231073A2C97AC270071E3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2231073E2C97AC270071E3B6 /* PBXTargetDependency */,
+			);
+			name = "Al-KhalilUITests";
+			productName = "Al-KhalilUITests";
+			productReference = 2231073C2C97AC270071E3B6 /* Al-KhalilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223107182C97AC250071E3B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2231071F2C97AC250071E3B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					223107312C97AC270071E3B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2231071F2C97AC250071E3B6;
+					};
+					2231073B2C97AC270071E3B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2231071F2C97AC250071E3B6;
+					};
+				};
+			};
+			buildConfigurationList = 2231071B2C97AC250071E3B6 /* Build configuration list for PBXProject "Al-Khalil" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223107172C97AC250071E3B6;
+			packageReferences = (
+				221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 223107212C97AC250071E3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2231071F2C97AC250071E3B6 /* Al-Khalil */,
+				223107312C97AC270071E3B6 /* Al-KhalilTests */,
+				2231073B2C97AC270071E3B6 /* Al-KhalilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2231071E2C97AC250071E3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2231072D2C97AC260071E3B6 /* Preview Assets.xcassets in Resources */,
+				221E680E2CA109E300A4CC52 /* GoogleService-Info.plist in Resources */,
+				2231072A2C97AC260071E3B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223107302C97AC270071E3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2231073A2C97AC270071E3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2231071C2C97AC250071E3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221E681E2CA3457200A4CC52 /* Schedule.swift in Sources */,
+				223107262C97AC250071E3B6 /* ContentView.swift in Sources */,
+				223107512C97B27A0071E3B6 /* SplashView.swift in Sources */,
+				221E68202CA345AA00A4CC52 /* ScheduleViewModel.swift in Sources */,
+				223107282C97AC250071E3B6 /* Item.swift in Sources */,
+				223107532C97B28B0071E3B6 /* HomeView.swift in Sources */,
+				223107242C97AC250071E3B6 /* Al_KhalilApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2231072E2C97AC270071E3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223107372C97AC270071E3B6 /* Al_KhalilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223107382C97AC270071E3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223107432C97AC270071E3B6 /* Al_KhalilUITestsLaunchTests.swift in Sources */,
+				223107412C97AC270071E3B6 /* Al_KhalilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223107342C97AC270071E3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2231071F2C97AC250071E3B6 /* Al-Khalil */;
+			targetProxy = 223107332C97AC270071E3B6 /* PBXContainerItemProxy */;
+		};
+		2231073E2C97AC270071E3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2231071F2C97AC250071E3B6 /* Al-Khalil */;
+			targetProxy = 2231073D2C97AC270071E3B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		223107442C97AC270071E3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		223107452C97AC270071E3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		223107472C97AC270071E3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Al-Khalil/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-Khalil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		223107482C97AC270071E3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Al-Khalil/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-Khalil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2231074A2C97AC270071E3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-KhalilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al-Khalil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Al-Khalil";
+			};
+			name = Debug;
+		};
+		2231074B2C97AC270071E3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-KhalilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al-Khalil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Al-Khalil";
+			};
+			name = Release;
+		};
+		2231074D2C97AC270071E3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-KhalilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Al-Khalil";
+			};
+			name = Debug;
+		};
+		2231074E2C97AC270071E3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AmalMaktab.Al-KhalilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Al-Khalil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2231071B2C97AC250071E3B6 /* Build configuration list for PBXProject "Al-Khalil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223107442C97AC270071E3B6 /* Debug */,
+				223107452C97AC270071E3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223107462C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-Khalil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223107472C97AC270071E3B6 /* Debug */,
+				223107482C97AC270071E3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223107492C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-KhalilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2231074A2C97AC270071E3B6 /* Debug */,
+				2231074B2C97AC270071E3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2231074C2C97AC270071E3B6 /* Build configuration list for PBXNativeTarget "Al-KhalilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2231074D2C97AC270071E3B6 /* Debug */,
+				2231074E2C97AC270071E3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		221E68102CA1D92400A4CC52 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		221E68122CA1D92400A4CC52 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		221E68142CA1D92400A4CC52 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		221E68162CA1D92400A4CC52 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		221E68182CA1D92400A4CC52 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221E680F2CA1D92400A4CC52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 223107182C97AC250071E3B6 /* Project object */;
+}
